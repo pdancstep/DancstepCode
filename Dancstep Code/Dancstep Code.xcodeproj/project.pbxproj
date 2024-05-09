@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E1D7BB12BED5C4E005F698E /* Dancstep Code Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5E1D7BB02BED5C4E005F698E /* Dancstep Code Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5E1D7BB62BED5C4E005F698E /* Dancstep_CodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D7BB52BED5C4E005F698E /* Dancstep_CodeApp.swift */; };
+		5E1D7BB82BED5C4E005F698E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D7BB72BED5C4E005F698E /* ContentView.swift */; };
+		5E1D7BBA2BED5C50005F698E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E1D7BB92BED5C50005F698E /* Assets.xcassets */; };
+		5E1D7BBD2BED5C50005F698E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E1D7BBC2BED5C50005F698E /* Preview Assets.xcassets */; };
+		5E1D7BC72BED5C50005F698E /* Dancstep_Code_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D7BC62BED5C50005F698E /* Dancstep_Code_Watch_AppTests.swift */; };
+		5E1D7BD12BED5C51005F698E /* Dancstep_Code_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D7BD02BED5C51005F698E /* Dancstep_Code_Watch_AppUITests.swift */; };
+		5E1D7BD32BED5C51005F698E /* Dancstep_Code_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D7BD22BED5C51005F698E /* Dancstep_Code_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E1D7BB22BED5C4E005F698E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E1D7BA42BED5C4E005F698E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E1D7BAF2BED5C4E005F698E;
+			remoteInfo = "Dancstep Code Watch App";
+		};
+		5E1D7BC32BED5C50005F698E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E1D7BA42BED5C4E005F698E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E1D7BAF2BED5C4E005F698E;
+			remoteInfo = "Dancstep Code Watch App";
+		};
+		5E1D7BCD2BED5C50005F698E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E1D7BA42BED5C4E005F698E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E1D7BAF2BED5C4E005F698E;
+			remoteInfo = "Dancstep Code Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5E1D7BD92BED5C51005F698E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5E1D7BB12BED5C4E005F698E /* Dancstep Code Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5E1D7BAA2BED5C4E005F698E /* Dancstep Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dancstep Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E1D7BB02BED5C4E005F698E /* Dancstep Code Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dancstep Code Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E1D7BB52BED5C4E005F698E /* Dancstep_CodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dancstep_CodeApp.swift; sourceTree = "<group>"; };
+		5E1D7BB72BED5C4E005F698E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5E1D7BB92BED5C50005F698E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E1D7BBC2BED5C50005F698E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E1D7BC22BED5C50005F698E /* Dancstep Code Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dancstep Code Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E1D7BC62BED5C50005F698E /* Dancstep_Code_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dancstep_Code_Watch_AppTests.swift; sourceTree = "<group>"; };
+		5E1D7BCC2BED5C50005F698E /* Dancstep Code Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dancstep Code Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E1D7BD02BED5C51005F698E /* Dancstep_Code_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dancstep_Code_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		5E1D7BD22BED5C51005F698E /* Dancstep_Code_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dancstep_Code_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E1D7BAD2BED5C4E005F698E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E1D7BBF2BED5C50005F698E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E1D7BC92BED5C50005F698E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E1D7BA32BED5C4E005F698E = {
+			isa = PBXGroup;
+			children = (
+				5E1D7BB42BED5C4E005F698E /* Dancstep Code Watch App */,
+				5E1D7BC52BED5C50005F698E /* Dancstep Code Watch AppTests */,
+				5E1D7BCF2BED5C51005F698E /* Dancstep Code Watch AppUITests */,
+				5E1D7BAB2BED5C4E005F698E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E1D7BAB2BED5C4E005F698E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E1D7BAA2BED5C4E005F698E /* Dancstep Code.app */,
+				5E1D7BB02BED5C4E005F698E /* Dancstep Code Watch App.app */,
+				5E1D7BC22BED5C50005F698E /* Dancstep Code Watch AppTests.xctest */,
+				5E1D7BCC2BED5C50005F698E /* Dancstep Code Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E1D7BB42BED5C4E005F698E /* Dancstep Code Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				5E1D7BB52BED5C4E005F698E /* Dancstep_CodeApp.swift */,
+				5E1D7BB72BED5C4E005F698E /* ContentView.swift */,
+				5E1D7BB92BED5C50005F698E /* Assets.xcassets */,
+				5E1D7BBB2BED5C50005F698E /* Preview Content */,
+			);
+			path = "Dancstep Code Watch App";
+			sourceTree = "<group>";
+		};
+		5E1D7BBB2BED5C50005F698E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5E1D7BBC2BED5C50005F698E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5E1D7BC52BED5C50005F698E /* Dancstep Code Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E1D7BC62BED5C50005F698E /* Dancstep_Code_Watch_AppTests.swift */,
+			);
+			path = "Dancstep Code Watch AppTests";
+			sourceTree = "<group>";
+		};
+		5E1D7BCF2BED5C51005F698E /* Dancstep Code Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E1D7BD02BED5C51005F698E /* Dancstep_Code_Watch_AppUITests.swift */,
+				5E1D7BD22BED5C51005F698E /* Dancstep_Code_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Dancstep Code Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E1D7BA92BED5C4E005F698E /* Dancstep Code */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E1D7BDA2BED5C51005F698E /* Build configuration list for PBXNativeTarget "Dancstep Code" */;
+			buildPhases = (
+				5E1D7BA82BED5C4E005F698E /* Resources */,
+				5E1D7BD92BED5C51005F698E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E1D7BB32BED5C4E005F698E /* PBXTargetDependency */,
+			);
+			name = "Dancstep Code";
+			productName = "Dancstep Code";
+			productReference = 5E1D7BAA2BED5C4E005F698E /* Dancstep Code.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		5E1D7BAF2BED5C4E005F698E /* Dancstep Code Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E1D7BD62BED5C51005F698E /* Build configuration list for PBXNativeTarget "Dancstep Code Watch App" */;
+			buildPhases = (
+				5E1D7BAC2BED5C4E005F698E /* Sources */,
+				5E1D7BAD2BED5C4E005F698E /* Frameworks */,
+				5E1D7BAE2BED5C4E005F698E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dancstep Code Watch App";
+			productName = "Dancstep Code Watch App";
+			productReference = 5E1D7BB02BED5C4E005F698E /* Dancstep Code Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E1D7BC12BED5C50005F698E /* Dancstep Code Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E1D7BDD2BED5C51005F698E /* Build configuration list for PBXNativeTarget "Dancstep Code Watch AppTests" */;
+			buildPhases = (
+				5E1D7BBE2BED5C50005F698E /* Sources */,
+				5E1D7BBF2BED5C50005F698E /* Frameworks */,
+				5E1D7BC02BED5C50005F698E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E1D7BC42BED5C50005F698E /* PBXTargetDependency */,
+			);
+			name = "Dancstep Code Watch AppTests";
+			productName = "Dancstep Code Watch AppTests";
+			productReference = 5E1D7BC22BED5C50005F698E /* Dancstep Code Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E1D7BCB2BED5C50005F698E /* Dancstep Code Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E1D7BE02BED5C51005F698E /* Build configuration list for PBXNativeTarget "Dancstep Code Watch AppUITests" */;
+			buildPhases = (
+				5E1D7BC82BED5C50005F698E /* Sources */,
+				5E1D7BC92BED5C50005F698E /* Frameworks */,
+				5E1D7BCA2BED5C50005F698E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E1D7BCE2BED5C50005F698E /* PBXTargetDependency */,
+			);
+			name = "Dancstep Code Watch AppUITests";
+			productName = "Dancstep Code Watch AppUITests";
+			productReference = 5E1D7BCC2BED5C50005F698E /* Dancstep Code Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E1D7BA42BED5C4E005F698E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5E1D7BA92BED5C4E005F698E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					5E1D7BAF2BED5C4E005F698E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					5E1D7BC12BED5C50005F698E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5E1D7BAF2BED5C4E005F698E;
+					};
+					5E1D7BCB2BED5C50005F698E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5E1D7BAF2BED5C4E005F698E;
+					};
+				};
+			};
+			buildConfigurationList = 5E1D7BA72BED5C4E005F698E /* Build configuration list for PBXProject "Dancstep Code" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E1D7BA32BED5C4E005F698E;
+			productRefGroup = 5E1D7BAB2BED5C4E005F698E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E1D7BA92BED5C4E005F698E /* Dancstep Code */,
+				5E1D7BAF2BED5C4E005F698E /* Dancstep Code Watch App */,
+				5E1D7BC12BED5C50005F698E /* Dancstep Code Watch AppTests */,
+				5E1D7BCB2BED5C50005F698E /* Dancstep Code Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E1D7BA82BED5C4E005F698E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E1D7BAE2BED5C4E005F698E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1D7BBD2BED5C50005F698E /* Preview Assets.xcassets in Resources */,
+				5E1D7BBA2BED5C50005F698E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E1D7BC02BED5C50005F698E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E1D7BCA2BED5C50005F698E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E1D7BAC2BED5C4E005F698E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1D7BB82BED5C4E005F698E /* ContentView.swift in Sources */,
+				5E1D7BB62BED5C4E005F698E /* Dancstep_CodeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E1D7BBE2BED5C50005F698E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1D7BC72BED5C50005F698E /* Dancstep_Code_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E1D7BC82BED5C50005F698E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1D7BD12BED5C51005F698E /* Dancstep_Code_Watch_AppUITests.swift in Sources */,
+				5E1D7BD32BED5C51005F698E /* Dancstep_Code_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E1D7BB32BED5C4E005F698E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E1D7BAF2BED5C4E005F698E /* Dancstep Code Watch App */;
+			targetProxy = 5E1D7BB22BED5C4E005F698E /* PBXContainerItemProxy */;
+		};
+		5E1D7BC42BED5C50005F698E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E1D7BAF2BED5C4E005F698E /* Dancstep Code Watch App */;
+			targetProxy = 5E1D7BC32BED5C50005F698E /* PBXContainerItemProxy */;
+		};
+		5E1D7BCE2BED5C50005F698E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E1D7BAF2BED5C4E005F698E /* Dancstep Code Watch App */;
+			targetProxy = 5E1D7BCD2BED5C50005F698E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5E1D7BD42BED5C51005F698E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E1D7BD52BED5C51005F698E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5E1D7BD72BED5C51005F698E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dancstep Code Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dancstep Code";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Digital-Abacus.Dancstep-Code.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		5E1D7BD82BED5C51005F698E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dancstep Code Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dancstep Code";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Digital-Abacus.Dancstep-Code.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		5E1D7BDB2BED5C51005F698E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dancstep Code";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Digital-Abacus.Dancstep-Code";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5E1D7BDC2BED5C51005F698E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dancstep Code";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Digital-Abacus.Dancstep-Code";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E1D7BDE2BED5C51005F698E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Digital-Abacus.Dancstep-Code-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dancstep Code Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dancstep Code Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		5E1D7BDF2BED5C51005F698E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Digital-Abacus.Dancstep-Code-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dancstep Code Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dancstep Code Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		5E1D7BE12BED5C51005F698E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Digital-Abacus.Dancstep-Code-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Dancstep Code Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		5E1D7BE22BED5C51005F698E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Digital-Abacus.Dancstep-Code-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Dancstep Code Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E1D7BA72BED5C4E005F698E /* Build configuration list for PBXProject "Dancstep Code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E1D7BD42BED5C51005F698E /* Debug */,
+				5E1D7BD52BED5C51005F698E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E1D7BD62BED5C51005F698E /* Build configuration list for PBXNativeTarget "Dancstep Code Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E1D7BD72BED5C51005F698E /* Debug */,
+				5E1D7BD82BED5C51005F698E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E1D7BDA2BED5C51005F698E /* Build configuration list for PBXNativeTarget "Dancstep Code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E1D7BDB2BED5C51005F698E /* Debug */,
+				5E1D7BDC2BED5C51005F698E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E1D7BDD2BED5C51005F698E /* Build configuration list for PBXNativeTarget "Dancstep Code Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E1D7BDE2BED5C51005F698E /* Debug */,
+				5E1D7BDF2BED5C51005F698E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E1D7BE02BED5C51005F698E /* Build configuration list for PBXNativeTarget "Dancstep Code Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E1D7BE12BED5C51005F698E /* Debug */,
+				5E1D7BE22BED5C51005F698E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E1D7BA42BED5C4E005F698E /* Project object */;
+}
